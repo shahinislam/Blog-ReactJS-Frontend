@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.blog-scale:hover {
+  transition: transform .3s;
+}
+
+.blog-scale:hover {
+  transform: scale(1.01);
+  box-shadow: 2px 2px 2px 0px skyblue;
+}
