@@ -47,6 +47,9 @@ const Create = () => {
             <div className="d-flex justify-content-center">
                 <div className="col-md-6">
                     <Card>
+                        <Card.Title className="text-center">
+                            <h1>Create Post</h1>
+                        </Card.Title>
                         <Card.Body>
                             <Form  noValidate validated={validated} onSubmit={handleSubmit}>
                                 <Form.Group controlId="exampleForm.ControlInput1">

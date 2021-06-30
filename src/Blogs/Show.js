@@ -28,6 +28,9 @@ const Show = () => {
                 <div className="d-flex justify-content-center">
                     <div className="col-md-6">
                         <Card>
+                            <Card.Title className="text-center">
+                                <h1>Post Details</h1>
+                            </Card.Title>
                             <Card.Body>
                                 {user.id === blog.user_id && 
                                     <div className="action">
@@ -36,6 +39,8 @@ const Show = () => {
                                     </div>
                                 }
                                 <h2>{ blog.title }</h2>
+                                <p className="float-right">{blog.created_at}</p>
+                                <p className="text-success">By {blog.user.name}</p>
                                 <div>{ blog.description }</div>
                             </Card.Body>
                         </Card>
